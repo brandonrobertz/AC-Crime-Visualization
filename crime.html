@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jail Time for Equal Crimes by Race</title>
+    <script type="text/javascript" src="d3.v2.min.js"></script>
+    <script type="text/javascript" src="dataset_final.js"></script>
+    <link type="text/css" rel="stylesheet" href="crime.css"/>
+  </head>
+  <body>
+    <a href="#chart" onclick="update(dataset_2011, dataset_2011_totals, dataset_2011_averages, 2011);" id="dataset_2011">2011</a>
+    <a href="" onclick="update(dataset_2010, dataset_2010_totals, dataset_2010_averages, 2010);" id="dataset_2010">2010</a>
+    <a href="" onclick="update(dataset_2009, dataset_2009_totals, dataset_2009_averages, 2009);" id="dataset_2009">2009</a>
+    <a href="" onclick="update(dataset_2008, dataset_2008_totals, dataset_2008_averages, 2008);" id="dataset_2008">2008</a>
+    <a href="" onclick="update(dataset_2007, dataset_2007_totals, dataset_2007_averages, 2007);" id="dataset_2007">2007</a>
+    <a href="" onclick="update(dataset_2006, dataset_2006_totals, dataset_2006_averages, 2006);" id="dataset_2006">2006</a>
+    <a href="" onclick="update(dataset_2006_2011, dataset_2006_2011_totals, dataset_2006_2011_averages, '2006-2011');" id="dataset_2006_2011">2006-2011</a>
+    <div id="chart"></div>
+    <script type="text/javascript" src="crime.js"></script>
+  </body>
+</html>
